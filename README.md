@@ -19,7 +19,6 @@ A full-stack web application for automated brain tumor detection and classificat
 - [Model Information](#model-information)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 <a id="features"></a>
 ## ✨ Features
 
@@ -66,7 +65,7 @@ A full-stack web application for automated brain tumor detection and classificat
 - **Grad-CAM** - Explainable AI visualization
 - **OpenCV** - Image processing
 - **Pillow** - Image manipulation
-
+<a id="system-architecture"></a>
 ## 🏗️ System Architecture
 
 ```
@@ -85,7 +84,7 @@ A full-stack web application for automated brain tumor detection and classificat
                         │             │
                         └─────────────┘
 ```
-
+<a id="prerequisites"></a>
 ## 📦 Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -103,7 +102,7 @@ npm --version   # Should be v8+
 python --version  # Should be 3.8+
 mongod --version  # Should be 4.4+
 ```
-
+<a id="installation"></a>
 ## 🚀 Installation
 
 ### 1. Clone the Repository
@@ -220,7 +219,7 @@ sudo systemctl start mongod
 # Verify MongoDB is running
 mongo --eval "db.version()"
 ```
-
+<a id="running-the-application"></a>
 ## 🏃 Running the Application
 
 ### Option 1: Run All Services Individually
@@ -317,7 +316,7 @@ Run with:
 ```bash
 docker-compose up
 ```
-
+<a id="project-structure"></a>
 ## 📁 Project Structure
 
 ```
@@ -352,7 +351,7 @@ brain-tumor-detection/
 │
 └── README.md
 ```
-
+<a id="api-documentation"></a>
 ## 📡 API Documentation
 
 ### Authentication
@@ -416,7 +415,7 @@ Authorization: Bearer <token>
 DELETE /api/scan/:scanId
 Authorization: Bearer <token>
 ```
-
+<a id="model-information"></a>
 ## 🤖 Model Information
 
 ### ResNet50 Architecture
@@ -441,7 +440,7 @@ Gradient-weighted Class Activation Mapping (Grad-CAM) provides visual explanatio
 - **Accuracy:** ~95% on test set
 - **Inference Time:** ~2-6 seconds per scan
 - **Confidence Threshold:** 50% for positive detection
-
+<a id="screenshots"></a>
 ## 🖼️ Screenshots
 
 ### Landing Page
@@ -549,7 +548,7 @@ git push heroku main
 cd frontend
 vercel deploy --prod
 ```
-
+<a id="contributing"></a>
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
