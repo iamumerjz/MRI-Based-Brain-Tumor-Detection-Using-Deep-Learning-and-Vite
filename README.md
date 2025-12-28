@@ -20,7 +20,7 @@ A full-stack web application for automated brain tumor detection and classificat
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
-
+<a id="features"></a>
 ## ✨ Features
 
 - 🔐 **User Authentication** - Secure JWT-based authentication system
