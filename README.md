@@ -109,7 +109,7 @@ mongod --version  # Should be 4.4+
 
 ```bash
 git clone https://github.com/iamumerjz/MRI-Based-Brain-Tumor-Detection-Using-Deep-Learning-and-Vite.git
-cd MRI-Based-Brain-Tumor-Detection-Using-Deep-Learning-and-Vue
+cd MRI-Based-Brain-Tumor-Detection-Using-Deep-Learning-and-Vite
 ```
 
 ### 2. Backend Setup
@@ -241,7 +241,7 @@ npm run dev
 ```bash
 cd frontend
 npm run dev
-# Frontend will start at http://localhost:5173
+# Frontend will start at http://localhost:8080
 ```
 
 **Terminal 4 - Test Scanner (Optional):**
